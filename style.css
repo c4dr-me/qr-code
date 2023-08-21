@@ -1,11 +1,14 @@
-*{
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color:hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -16,13 +19,10 @@ body{
 .container{
     background-color:white;
     border-radius: 14px;
-    border:none;
-    display: flex;
-    flex-direction: column;
-    width:300px;
-    height:450px;
     box-shadow: 2px 2px 30px  hsl(220, 15%, 55%);
     padding: 18px;
+    margin:0 auto;
+    max-width: 20rem;
 }
 
  img{
@@ -36,24 +36,23 @@ body{
     flex-direction: column;
     justify-content:center;
     text-align: center;
+    margin-top: 1em;
 }
 
 .header{
     margin: 20px 0px 0px 0px;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
-    line-height: 18px;
-    font-size: 17px;
+    line-height: 1.3;
+    font-size: 1.29rem;
     padding: 0px 20px 20px; 
-    text-align: center;
-    
 }
 
 .text{
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    line-height: 18px;
-    font-size: 14px;
+    line-height: 1.27;
+    font-size: 0.99rem;
     padding: 10px 20px 20px 20px;
 }
 
@@ -96,3 +95,13 @@ body{
         padding: 10px 20px 20px;
     }
 }    
+
+.footer {
+    font-size: 0.8rem;
+    text-align: center;
+    max-width: 40ch;
+    padding-top: 2rem;
+  }
+  .footer a {
+    color: rgb(75, 75, 182);
+  }
