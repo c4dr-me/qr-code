@@ -100,7 +100,7 @@ body{
     font-size: 0.8rem;
     text-align: center;
     max-width: 40ch;
-    padding-top: 3rem;
+    padding-top: 0.2rem;
   }
   .footer a {
     color: rgb(75, 75, 182);
