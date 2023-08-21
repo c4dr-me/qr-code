@@ -20,7 +20,7 @@ body{
     background-color:white;
     border-radius: 14px;
     box-shadow: 2px 2px 30px  hsl(220, 15%, 55%);
-    padding: 18px;
+    padding: 1.125rem;
     margin:0 auto;
     max-width: 20rem;
 }
@@ -51,7 +51,7 @@ body{
 .text{
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    line-height: 88%;
+    line-height: 92%;
     font-size: 0.99rem;
     padding: 10px 20px 20px 20px;
 }
@@ -74,6 +74,29 @@ body{
     }
 }
    
+@media (min-width:1440px){
+    
+    body {
+        font-size: 1.12rem;
+    }
+
+    .container {
+        width: 25rem;
+        height: auto;
+        padding: 1.25rem;
+    }
+
+    .header {
+        font-size: 1.25rem;
+        padding: 0px 1.25rem 1.25rem;
+    }
+
+    .text {
+        font-size: 1rem;
+        padding: 0.625rem 1.25rem 1.25rem;
+    }
+}    
+
 
 .footer {
     font-size: 0.8rem;
